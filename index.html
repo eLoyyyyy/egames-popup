@@ -1,0 +1,134 @@
+<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css">
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="css/flags32.css" type="text/css"/>
+<link rel="stylesheet" href="css/style.css" type="text/css">
+
+<nav class="navbar">
+	<div class="container">
+		<div class="btn-group pull-right">
+			<button type="button" class="form-control btn btn-default dropdown-toggle" data-toggle="dropdown">
+				<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu f32" role="menu">
+				<li><a href="#"><li class="flag id"></li></a></li>
+				<li><a href="#"><li class="flag vn"></li></a></li>
+				<li><a href="#"><li class="flag th"></li></a></li>
+				<li><a href="#"><li class="flag my"></li></a></li>
+				<li><a href="#"><li class="flag zh"></li></a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+
+<div class="container">
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#mg" aria-controls="home" role="tab" data-toggle="tab">Micro Gaming</a></li>
+    <li role="presentation"><a href="#gamesos" aria-controls="profile" role="tab" data-toggle="tab">GamesOS</a></li>
+    <li role="presentation"><a href="#playtech" aria-controls="messages" role="tab" data-toggle="tab">Playtech</a></li>
+    <li role="presentation"><a href="#ttg" aria-controls="settings" role="tab" data-toggle="tab">Top Trend Gaming</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="mg">
+		
+	</div>
+    <div role="tabpanel" class="tab-pane" id="gamesos">...</div>
+    <div role="tabpanel" class="tab-pane" id="playtech">
+		<div class="inner">
+			<div class="play-on">
+				<div class="play-on-inner" style="position:relative;">
+					<a class="iframe" rel="gallery1" href="htm/gts35.html">Description</a>
+				</div>
+			</div>
+			<img class="play" src="img/gts_medusa.jpg">
+		</div>
+
+
+		<div class="inner">
+			<div class="play-on">
+				<div class="play-on-inner" style="position:relative;">
+					<a class="iframe" rel="gallery1" href="htm/bls.html">Description</a>
+				</div>
+			</div>
+			<img class="play" src="img/balls.jpg">
+		</div>
+
+		<div class="inner">
+			<div class="play-on">
+				<div class="play-on-inner" style="position:relative;">
+					<a class="iframe" rel="gallery1" href="htm/atw.html">Description</a>
+				</div>
+			</div>
+			<img class="play" src="img/aroundtheworld.jpg">
+		</div>
+
+		<div class="inner">
+			<div class="play-on">
+				<div class="play-on-inner" style="position:relative;">
+					<a class="iframe" rel="gallery1" href="htm/bowl.html">Description</a>
+				</div>
+			</div>
+			<img class="play" src="img/bonusbowling.jpg">
+		</div>
+
+		<div class="inner">
+			<div class="play-on">
+				<div class="play-on-inner" style="position:relative;">
+					<a class="iframe" rel="gallery1" href="htm/hr.html">Description</a>
+				</div>
+			</div>
+			<img class="play" src="img/Derby_Day.jpg">
+		</div>
+
+		<div class="inner">
+			<div class="play-on">
+				<div class="play-on-inner" style="position:relative;">
+					<a class="iframe" rel="gallery1" href="htm/dctw.html">Description</a>
+				</div>
+			</div>
+			<img class="play" src="img/dicetwister.jpg">
+		</div>
+
+		<div class="inner">
+			<div class="play-on">
+				<div class="play-on-inner" style="position:relative;">
+					<a class="iframe" rel="gallery1" href="htm/fsc.html">Description</a>
+				</div>
+			</div>
+			<img class="play" src="img/flash_finalscore.jpg">
+		</div>
+
+		<div class="inner">
+			<div class="play-on">
+				<div class="play-on-inner" style="position:relative;">
+					<a class="iframe" rel="gallery1" href="htm/hsd.html">Description</a>
+				</div>
+			</div>
+			<img class="play" src="img/flash_holdemshowdown.jpg">
+		</div>
+	</div>
+    <div role="tabpanel" class="tab-pane" id="ttg">...</div>
+  </div>
+
+</div>
+
+
+	
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.js" type="text/javascript"></script>
+<script src="js/jquery.fancybox.pack.js" type="text/javascript"></script>
+<script>
+	jQuery(document).ready(function($) {
+		$(".iframe").fancybox({
+			width: '1024',
+			height: '768',
+			type: 'iframe',
+			openEffect: 'elastic',
+			closeEffect: 'fade'
+		});
+	});
+</script>

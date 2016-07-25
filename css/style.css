@@ -1,0 +1,120 @@
+.fancybox-next, .fancybox-prev {
+	width: 45px;
+}
+.fancybox-next {
+	right: -65px;
+}
+.fancybox-prev {
+	left: -65px;
+}
+
+div.inner {
+	width: 141px;
+	height: auto;
+	display: inline-block;
+	position:relative;
+	overflow:hidden;
+	margin: 22px 22px;
+}
+
+div.inner img.play {
+	width: 141px;
+	height: 162px;
+}
+
+.inner div.play-on {
+	width: 100%;
+	height: 162px;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	top:-162px;
+	left:0;
+	-webkit-transition: top 200ms linear 0ms;
+	-moz-transition: top 200ms linear 0ms;
+	-o-transition: top 200ms linear 0ms;
+	transition: top 200ms linear 0ms;
+}
+
+.inner:hover div.play-on {
+	top: 0px;
+}
+
+div.play-on a {
+	position:relative;
+	line-height: 162px;
+	padding: 10px;
+	background: red;
+	text-decoration:none;
+}
+
+div.play-on-inner {
+	text-align: center;
+}
+
+.text-center {
+	text-align: center;
+}
+
+p.lead {
+	font-size: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+p.lead > span {
+	font-weight: bold;
+    color: #ff0000;
+}
+
+.list-inline > li > a {
+    background: orange;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+ul.list-inline {
+	margin-top: 20px;
+    margin-bottom: 20px;
+	padding-left:0px;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+img.img-screenshot {
+	width: 396px;
+}
+
+img.img-game-thumbnail {
+	width: 320px;
+    margin: 0 auto;
+	height: 230px;
+}
+
+h3 {
+	font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:600; font-stretch:condensed;
+	font-weight: bold;
+    font-size: 33px;
+    margin-bottom: 0px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+div.game-content {
+	max-height: 701px;
+	overflow-y:scroll;
+	overflow-x:hidden;
+}
+
+.dropdown-menu {
+	min-width: 42px;
+    padding: 5px 0px 5px 8px;
+}
