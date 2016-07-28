@@ -89,6 +89,7 @@ ul.list-inline {
 
 img.img-screenshot {
 	width: 396px;
+	margin: 0 auto;
 }
 
 img.img-game-thumbnail {
@@ -108,10 +109,12 @@ a:hover {
 	text-decoration: none;
 }
 
-div.game-content {
-	max-height: 701px;
-	overflow-y:scroll;
-	overflow-x:hidden;
+@media (min-width: 992px) {
+	div.game-content {
+		max-height: 701px;
+		overflow-y:scroll;
+		overflow-x:hidden;
+	}
 }
 
 .dropdown-menu {
